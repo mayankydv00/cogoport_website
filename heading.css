@@ -1,0 +1,66 @@
+.body{
+  margin: 0px;
+  padding: 0;
+}
+.track{
+    
+  white-space: nowrap;
+  will-change: transform;
+  animation: marquee 10s linear infinite;
+  font-size: 13px;
+  
+}
+#limited_time_offer{
+    display: block; 
+    text-align: center; 
+    /* border: 2px solid black; */
+    width: 1496px;
+    background-color:red;
+    font-size: 17px;
+    color : white;
+    padding : 5px;
+} 
+.nav_bar{
+  background-color: rgb(255, 225, 0);
+  display: flex;
+  width : 1496px;
+  flex-direction: row;
+}
+.nav_items{
+  margin-left: 25px;
+  margin-top: 10px;
+  padding: 5px;
+}
+#sign_up{
+  background-color: red;
+  border-radius: 10px;
+}
+.vision{
+  display: flex;
+
+  background-color: rgb(255, 225, 0);
+  width: 1496px;
+  height: 400px;
+}
+#vision_text{
+  /* border: 5px solid black; */
+  width:50%;
+  height:100%;
+
+}
+.cogoport_data{
+  display: flex;
+  width: 1496px;
+  margin-top: 40px;
+  font-weight: bold;
+}
+.cogoport_data_items{
+  /* display: inline-flex; */
+  /* border: 2px  solid black; */
+  text-align: center;
+  width: 370px;
+}
+.cogoport_data_items_number{
+  color: red;
+  font-size: 30px;
+}
