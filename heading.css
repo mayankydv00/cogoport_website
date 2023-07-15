@@ -4,13 +4,53 @@
   font-weight: bold;
 }
 .track{
-    
-  white-space: nowrap;
-  will-change: transform;
-  animation: marquee 10s linear infinite;
-  font-size: 13px;
+  /* border: 2px solid black; */
+  
+  width: 1496px;
+  /* display: flex; */
+  overflow: hidden;
   
 }
+#track_text1 {
+  /* display: inline; */
+  
+  animation : right_to_left1 25s infinite linear;
+}
+#track_text2 {
+  /* display: inline; */
+  
+  animation : right_to_left2 15s infinite linear ;
+}
+@keyframes right_to_left1 {
+  from{
+    margin-left: 0  ;
+    width: 500%;
+    height: 20px;
+  }
+  to{
+    margin-left: -236% ;
+    width: 500%;
+    height: 20px;
+  }
+  
+}
+
+@keyframes right_to_left2 {
+  from{
+    margin-left: 120%  ;
+    width: 300%;
+    /* height: 20px; */
+  }
+  to{
+    margin-left: -100%;
+    width: 300%;
+
+  
+  }
+  
+}
+
+
 .font40{
   font-size: 40px;
   font-weight: bold;
@@ -170,4 +210,9 @@ input{
 .find_out_more{
   color: red;
   font-size: 15px;
+}
+#trusted_by{
+  text-align: center;
+  width: 1496px;
+  margin-top: 100px;
 }
