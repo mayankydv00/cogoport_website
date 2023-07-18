@@ -446,7 +446,8 @@ input{
   overflow: hidden;
   padding-left: 30px;
   line-height: 20px;
-  border-radius: 20px;
+  border: 3px solid hwb(0 91% 5% / 0.866);
+  border-radius: 10px;
   
 }
 .blog_img{
@@ -469,6 +470,7 @@ input{
   /* border: 2px solid black; */
 }
 #view_all_button{
+  margin-top: 70px;
   margin-left: 700px;
   background-color: red;
   color: white;
@@ -477,5 +479,93 @@ input{
   border: 0;
   border-radius: 5px;
   
+
+}
+#subscribe_container{
+  width: 1496px;
+  height: 340px;
+  background-color: #ffd900;
+  display: flex;
+  margin-top: 120px;
+  
+}
+#subscribe_img{
+  /* border: 2px solid black; */
+  /* width: 50%; */
+  padding: 50px 270px ;
+}
+#subscribe_text{
+  padding-top: 100px;
+}
+#subscribe_button{
+  background-color: red;
+  color: white;
+  padding: 5px 20px;
+  margin-left: 0;
+  border: 0;
+}
+#subscribe_input{
+  padding: 5px 20px;
+  margin-right: 0;
+}
+#cogoport_services{
+  width: 1466px;
+  height: 700px;
+  background-color: #ffd900;
+  display:flex;
+  line-height: 30px;
+  padding-left: 30px;
+  
+}
+.cogoport_services_item{
+  width: 13%;
+  margin: 0px auto;
+  font-size: 23px;
+}
+pre{
+  font-family: Arial ;
+  font-size: 12px;
+  font-weight: 400;
+}
+.cogoport_services_subheadline{
+  font-size: 14px;
+  font-weight: bold;
+}
+#cogoport_routes{
+  height: 450px;
+  width: 1496px;
+  background-color: rgb(255, 200, 0);
+  display: flex;
+  font-family: Arial ;
+
+}
+.cogoport_routes_container{
+   /* height: 0%; */
+   width: 25%;
+   /* margin: auto; */
+   font-family: Arial ;
+   font-weight: 400;
+   font-size: 12px;
+   padding: 50px;
+   line-height: 30px;
+}
+#footer{
+  width: 1496px;
+  /* border: 2px solid ; */
+  /* margin-bottom: 0px; */
+   padding-bottom: 20px;
+  background-color: rgb(255, 200, 0);
+  
+}
+#footer_text{
+  font-weight: 700;
+  margin: 0;
+}
+#footer_english{
+  font-size: 16px;
+  color: red;
+}
+#footer_social_img{
+  font-size: 16px;
 
 }
