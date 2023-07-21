@@ -1,0 +1,4 @@
+Topics I found difficulties are :
+1). Putting whatsapp shortcut on the right side of the screen.
+2). Nav bar changes color and sticks on the top when scrolled down.
+3). Change width of div tag when the screen size is less than 766px. The width remains same (While making the site responsive).
